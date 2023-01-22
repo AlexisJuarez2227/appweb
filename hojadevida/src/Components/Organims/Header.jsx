@@ -8,7 +8,7 @@ function Header() {
     <header>
         <Img className="Img" foto={Alexis} informacion= "Mi foto de perfil"/>
         <div><Title mensaje="Jorge Alexis Arredondo Juarez"/>
-        <Subtitle informacion="Engineering Student in Software Development"/></div></header> );
+        <Subtitle informacion="Estudiante de Ingeniería en Desarrollo de Software"/></div></header> );
 }
 
 export default Header;

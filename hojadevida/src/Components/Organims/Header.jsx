@@ -6,7 +6,7 @@ import "../../assets/Styles/Header.css";
 function Header() {
     return ( 
     <header>
-        <Img className="Img" foto={Alexis} informacion= "Mi foto de perfil"/>
+        <Img  foto={Alexis} informacion= "Mi foto de perfil"/>
         <div><Title mensaje="Jorge Alexis Arredondo Juarez"/>
         <Subtitle informacion="Estudiante de Ingeniería en Desarrollo de Software"/></div></header> );
 }

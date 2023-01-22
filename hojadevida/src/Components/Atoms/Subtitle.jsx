@@ -1,5 +1,5 @@
-function Subtitle({informacion}) {
-    return ( <h2>{informacion}</h2> );
+function Subtitle({informacion, style}) {
+    return ( <h2 className={style}>{informacion}</h2> );
 }
 
 export default Subtitle;

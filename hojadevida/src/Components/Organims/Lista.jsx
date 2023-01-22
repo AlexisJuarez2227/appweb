@@ -1,5 +1,5 @@
 import Datos from "../Atoms/Datos";
-function Lista({datos}) {
+function Lista({datos, imagen}) {
     return ( <div>{datos.map((item)=>(<Datos info={item}/>))} </div>);
 }
 

@@ -1,5 +1,6 @@
 header{
     width: 100%;
+    border-bottom: 2px red dotted;
     display: flex;
     flex-direction: row;
 }
